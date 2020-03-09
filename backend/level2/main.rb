@@ -23,7 +23,7 @@ def rentals_prices
     output_rentals << Rental.new(id: rental.id, price: price).to_h
   end
 
-  { 'rentals': output_rentals }
+  { rentals: output_rentals }
 end
 
 # Generate json output for rental prices
