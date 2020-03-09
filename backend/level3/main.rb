@@ -32,7 +32,7 @@ def rentals_prices
     ).to_h
   end
 
-  { 'rentals': output_rentals }
+  { rentals: output_rentals }
 end
 
 # Generate json output for rental prices
